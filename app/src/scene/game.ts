@@ -789,6 +789,9 @@ function init(): void {
     buildTitle();
     startMatch(true);
   });
+  el("btn-tournament").addEventListener("click", () => {
+    location.href = "./multiplayer.html";
+  });
   el("btn-shuffle").addEventListener("click", shuffleRack);
   el("btn-clear").addEventListener("click", clearWord);
   el("btn-pass").addEventListener("click", () => play(true));
