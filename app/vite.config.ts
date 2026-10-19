@@ -15,6 +15,7 @@ export default defineConfig({
       input: {
         main: here("index.html"),
         game2d: here("2d.html"),
+        multiplayer: here("multiplayer.html"),
       },
     },
   },
